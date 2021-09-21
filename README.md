@@ -29,3 +29,7 @@ In the yolov5-master folder, with env1 activated, use this command:
 ```bash
 python detect.py --source test.png --weights 300epochs.pt --img 640
 ```
+
+## Metrics
+![alt text](https://github.com/Invictus-AI/UROP_Haoyu_HelmetDetection/blob/main/screenshot.png?raw=true)
+
