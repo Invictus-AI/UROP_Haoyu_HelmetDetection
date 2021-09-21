@@ -24,7 +24,7 @@ python3 -m pip install -r requirements.txt
 
 ## Try out the detector
 
-in the yolov5-master folder, with env1 activated, use this command:
+In the yolov5-master folder, with env1 activated, use this command:
 
 ```bash
 python detect.py --source test.png --weights 400epochs.pt --img 640
