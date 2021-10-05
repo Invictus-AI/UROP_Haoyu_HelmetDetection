@@ -29,24 +29,26 @@ In the yolov5-master folder, with env1 activated, use this command:
 ```bash
 python detect.py --source test.png --weights 300epochs.pt --img 640
 ```
+![alt text](https://github.com/Invictus-AI/UROP_Haoyu_HelmetDetection/blob/main/photo_test.png?raw=true)
 
 ## Try out the detector on YouTube videos:
 
 In the yolov5-master folder, with env1 activated, use this command:
 
 ```
-bashpython detect.py --source https://www.youtube.com/watch?v=oHEWcefPWws --weights 300epochs.pt
+python detect.py --source [any youtube link such as: https://www.youtube.com/watch?v=oHEWcefPWws] --weights 300epochs.pt
 ```
+![alt text](https://github.com/Invictus-AI/UROP_Haoyu_HelmetDetection/blob/main/video_test.png?raw=true)
 
 ## Try out the detector on camera streaming:
 
 In the yolov5-master folder, with env1 activated, use this command:
 
-```bash
+```
 python detect.py --source 0 --weights 300epochs.pt
 ```
 
 
-## Metrics
+## Metrics during training
 ![alt text](https://github.com/Invictus-AI/UROP_Haoyu_HelmetDetection/blob/main/screenshot.png?raw=true)
 
