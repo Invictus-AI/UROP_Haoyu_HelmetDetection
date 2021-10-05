@@ -22,13 +22,30 @@ In the yolov5-master folder, with env1 activated, use the following command to i
 python3 -m pip install -r requirements.txt
 ```
 
-## Try out the detector
+## Try out the detector on photos:
 
 In the yolov5-master folder, with env1 activated, use this command:
 
 ```bash
 python detect.py --source test.png --weights 300epochs.pt --img 640
 ```
+
+## Try out the detector on YouTube videos:
+
+In the yolov5-master folder, with env1 activated, use this command:
+
+```
+bashpython detect.py --source https://www.youtube.com/watch?v=oHEWcefPWws --weights 300epochs.pt
+```
+
+## Try out the detector on camera streaming:
+
+In the yolov5-master folder, with env1 activated, use this command:
+
+```bash
+python detect.py --source 0 --weights 300epochs.pt
+```
+
 
 ## Metrics
 ![alt text](https://github.com/Invictus-AI/UROP_Haoyu_HelmetDetection/blob/main/screenshot.png?raw=true)
