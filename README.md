@@ -24,10 +24,11 @@ python3 -m pip install -r requirements.txt
 
 ## Try out the detector on photos:
 
+Four trained weights from four iterations are available for testing.
 In the yolov5-master folder, with env1 activated, use this command:
 
 ```bash
-python detect.py --source test.png --weights 300epochs.pt --img 640
+python detect.py --source test.png --weights [weight_name].pt --img 640
 ```
 ![alt text](https://github.com/Invictus-AI/UROP_Haoyu_HelmetDetection/blob/main/photo_test.png?raw=true)
 
@@ -36,7 +37,7 @@ python detect.py --source test.png --weights 300epochs.pt --img 640
 In the yolov5-master folder, with env1 activated, use this command:
 
 ```
-python detect.py --source [any youtube link such as: https://www.youtube.com/watch?v=oHEWcefPWws] --weights 300epochs.pt
+python detect.py --source '[any youtube link such as: https://www.youtube.com/watch?v=oHEWcefPWws]' --weights [weight_name].pt
 ```
 ![alt text](https://github.com/Invictus-AI/UROP_Haoyu_HelmetDetection/blob/main/video_test.png?raw=true)
 
@@ -45,10 +46,7 @@ python detect.py --source [any youtube link such as: https://www.youtube.com/wat
 In the yolov5-master folder, with env1 activated, use this command:
 
 ```
-python detect.py --source 0 --weights 300epochs.pt
+python detect.py --source 0 --weights [weight_name].pt
 ```
 
-
-## Metrics during training
-![alt text](https://github.com/Invictus-AI/UROP_Haoyu_HelmetDetection/blob/main/screenshot.png?raw=true)
 
